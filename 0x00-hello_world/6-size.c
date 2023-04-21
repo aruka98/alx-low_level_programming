@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* ex 6 */
+/**
+* main - fonction
+* Return: 0 as success
+*/
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
