@@ -6,13 +6,10 @@
 */
 int print_last_digit(int n)
 {
-	int r;
+	int a, rest;
 
-	r = _abs(n);
+	a = _abs(n);
+	rest = a % 10;
 
-	int ret;
-
-	ret = r % 10;
-
-	return (ret);
+	return (rest);
 }
