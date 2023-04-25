@@ -2,6 +2,8 @@
 
 /**
   * _islower - function
+  * @c: is the input
+  * Return: 1 for lowercase and 0 fot others
 */
 
 int _islower(int c)
