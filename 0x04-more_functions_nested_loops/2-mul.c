@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
   * mul - function
   * @a: first input
