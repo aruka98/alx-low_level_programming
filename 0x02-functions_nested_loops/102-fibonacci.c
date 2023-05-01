@@ -15,7 +15,7 @@ int main(void)
 
 	printf("%ld, %ld", n_2, n_1);
 
-	for (i = 0; i <= 24; i++)
+	for (i = 0; i <= 23; i++)
 	{
 		n = n_1 + n_2;
 
