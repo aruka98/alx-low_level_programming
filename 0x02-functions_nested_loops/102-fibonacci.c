@@ -28,5 +28,6 @@ int main(void)
 		n_1 = n1;
 		n_2 = n;
 	}
+	printf("\n");
 	return (0);
 }
