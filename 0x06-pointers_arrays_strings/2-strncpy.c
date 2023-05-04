@@ -6,7 +6,7 @@
 * @dest: first string input
 * @src: second input
 * @n: number input
-* Return: pointer char with the copy 
+* Return: pointer char with the copy
 */
 
 char *_strncpy(char *dest, char *src, int n)

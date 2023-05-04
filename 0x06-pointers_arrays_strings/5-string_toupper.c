@@ -3,13 +3,15 @@
 
 /**
 * string_toupper - function chages lower to upper
-* @a : input 
+* @a: input
 * Return: char
 */
 
 char *string_toupper(char *a)
 {
-	int l, i;
+	int i;
+
+	i = 0;
 
 	while (a[i] != '\0')
 	{
