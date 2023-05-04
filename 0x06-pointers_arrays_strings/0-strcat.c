@@ -4,17 +4,7 @@
 /**
 * _strcat - function that concatenates 2 string
 * @dest: first input string
-* @ src: second input string
-*/
-
-char *_strcat(char *dest, char *src)
-#include "main.h"
-#include <string.h>
-
-/**
-* _strcat - function that concatenates 2 string
-* @dest: first input string
-* @ src: second input string
+* @src: second input string
 * Return: char
 */
 
