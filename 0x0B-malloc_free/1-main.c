@@ -11,13 +11,20 @@
 int main(void)
 {
 	char *s;
+	int size;
 
-	s = _strdup("ALX SE");
+	s = _strdup("Best School!");
+
+	size = sizeof(s);
+
+	printf("%d\n", size);
+
 	if (s == NULL)
 	{
 		printf("failed to allocate memory\n");
 		return (1);
 	}
+
 	printf("%s\n", s);
 	free(s);
 	return (0);
