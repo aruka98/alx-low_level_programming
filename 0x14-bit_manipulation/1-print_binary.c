@@ -14,7 +14,7 @@ void print_binary(unsigned long int n)
 
 	while (ciel)
 	{
-		if (ciel & 1L << --ciel)
+		if (n & 1L << --ciel)
 		{
 			_putchar('1');
 			prt++;
